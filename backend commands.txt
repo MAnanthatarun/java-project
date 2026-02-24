@@ -1,0 +1,19 @@
+==> mongodb commands:-
+=>json:-
+
+{
+  "year": 2020,
+  "totalStudents": 450,
+  "avgCGPA": 7.5,
+  "companiesVisited": 32,
+  "predictedHighVisit": true
+}
+
+
+=>Bash:-
+
+db.placements.insertMany([
+ {year:2018,totalStudents:400,avgCGPA:7.1,companiesVisited:25,predictedHighVisit:false},
+ {year:2019,totalStudents:420,avgCGPA:7.3,companiesVisited:30,predictedHighVisit:true},
+ {year:2020,totalStudents:450,avgCGPA:7.5,companiesVisited:32,predictedHighVisit:true}
+])
